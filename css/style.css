@@ -17,7 +17,7 @@ header{
     padding-left:50px;
 }
 .change{
-    left:-30px;
+    left:-60px;
 }
 ul{
     width:150px;
@@ -185,3 +185,78 @@ ul li > a{
     transition:all 1s;*/
 
     
+
+.sesion2__article3{
+    padding:40px 10px;
+    text-align:left;
+}
+.trainers{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.trainer1{
+    height:230px;
+    width:260px;
+    margin-bottom:30px;
+}
+#trainer-pic1{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    object-position:top;
+    border-radius:10px;
+}    
+
+
+/*footer*/
+
+footer{
+    background:url(../imgs/pexels-anush-gorak-1431282.jpg);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    padding:40px 10px;
+}
+.content1{
+    background:rgba(0,0,0,.6);
+    border-radius:5px;
+    height:350px;
+    margin-bottom:30px;
+    color:#eee;
+    padding:30px 10px;
+
+}
+
+
+
+@media screen and (min-width:360px){
+    #artilce__card-a{
+        width:340px;
+    }
+    .trainer1{
+        width:320px;
+    }
+}
+
+@media screen and (min-width:411px){
+    .sesion1{
+        height:760px;
+    }
+    #artilce__card-a{
+        width:390px;
+    }
+    .trainer1{
+        width:380px;
+        height:290px;
+    }
+    .navbar{
+        height:750px;
+    }
+}
+@media screen and (min-width:375px){
+    
+    .navbar{
+        height:820px;
+    }
+}
